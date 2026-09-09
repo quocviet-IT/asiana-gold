@@ -1,0 +1,40 @@
+# =====================================================================
+#  DỮ LIỆU SẢN PHẨM — TUYỆT ĐỐI KHÔNG ĐƯA LÊN GITHUB
+#  Catalogue, bảng quy cách, khả năng đặt hàng, MOQ và toàn bộ ảnh sản
+#  phẩm là tài sản nội bộ. Repo này chỉ chứa mã nguồn.
+# =====================================================================
+payload*.json
+products*.json
+specs*.json
+avail*.json
+manifest*.json
+img/
+gal/
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+
+# Trang đã dựng — nhúng nguyên catalogue vào trong file, không được đẩy
+index.html
+asiana-gold*.html
+preview*.html
+live*.html
+*.build.html
+
+# Mọi tệp ảnh
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.avif
+*.svg
+
+# Hạ tầng và rác
+.vercel/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
